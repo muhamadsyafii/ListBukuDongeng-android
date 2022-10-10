@@ -4,7 +4,6 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.syafii.listbukudongeng.R
 import com.syafii.listbukudongeng.data.listBook
 import com.syafii.listbukudongeng.databinding.ActivityListBukuBinding
 import com.syafii.listbukudongeng.ui.listbuku.adapter.ListBukuAdapter

@@ -1,5 +1,6 @@
 package com.syafii.listbukudongeng.data
 
+import com.syafii.listbukudongeng.R
 import com.syafii.listbukudongeng.model.Book
 
 
@@ -8,30 +9,35 @@ val listBook = listOf(
         noBook = 1,
         judulBuku = "Nusantara",
         tahun = "2001",
-        penerbit = "Bandung"
+        penerbit = "Bandung",
+        image = R.drawable.buku_1
     ),
     Book(
         noBook = 2,
         judulBuku = "Kancil",
         tahun = "2002",
-        penerbit = "Jakarta"
+        penerbit = "Jakarta",
+        image = R.drawable.buku_2
     ),
     Book(
         noBook = 3,
         judulBuku = "Lutung Kasarung",
         tahun = "2003",
-        penerbit = "Surakarta"
+        penerbit = "Surakarta",
+        image = R.drawable.buku_3
     ),
     Book(
         noBook = 4,
         judulBuku = "Hutan Damai",
         tahun = "2004",
-        penerbit = "Cirebon"
+        penerbit = "Cirebon",
+        image = R.drawable.buku_4
     ),
     Book(
         noBook = 5,
         judulBuku = "Hutan Cahaya",
         tahun = "2005",
-        penerbit = "Sragen"
+        penerbit = "Sragen",
+        R.drawable.buku_5
     )
 )

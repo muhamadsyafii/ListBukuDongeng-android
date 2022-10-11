@@ -53,6 +53,7 @@
                 android:id="@+id/rv_book"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingTop="8dp"
                 tools:listitem="@layout/item_book"/>
 
         </androidx.core.widget.NestedScrollView>

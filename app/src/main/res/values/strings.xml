@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">List Buku Dongeng</string>
+
+    <string name="txt_splash_screen">Splash Screen</string>
 </resources>

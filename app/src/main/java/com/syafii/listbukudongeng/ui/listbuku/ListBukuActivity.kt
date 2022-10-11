@@ -1,5 +1,6 @@
 package com.syafii.listbukudongeng.ui.listbuku
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -7,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.syafii.listbukudongeng.data.listBook
 import com.syafii.listbukudongeng.databinding.ActivityListBukuBinding
 import com.syafii.listbukudongeng.ui.listbuku.adapter.ListBukuAdapter
+import com.syafii.listbukudongeng.ui.profile.ProfileActivity
 
 class ListBukuActivity : AppCompatActivity() {
     private lateinit var binding: ActivityListBukuBinding
@@ -32,6 +34,11 @@ class ListBukuActivity : AppCompatActivity() {
                 adapter.setItemBook(listBook)
                 adapter.notifyDataSetChanged()
                 swipeRefresh.isRefreshing = false
+            }
+
+            siProfile.setOnClickListener {
+                val intent = Intent(this@ListBukuActivity, ProfileActivity::class.java)
+                startActivity(intent)
             }
         }
     }
